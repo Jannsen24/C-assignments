@@ -1,0 +1,15 @@
+Package: DataX
+Type: Package
+Title: DataX R Tool 
+Version: 1.0.0.1
+Authors@R: person('Akash', 'Badal', email = 'Akash209999@gmail.com', role = c('aut', 'cre'))
+Description: This package is a test package with the purpose to learn and 
+understand R packaging. This is used as an peer assignment in order to pass
+the coursera course. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Imports: maps, dplyr, tibble, tidyr, readr
+Suggests: markdown, knitr, testthat 
+VignetteBuilder: knitr
